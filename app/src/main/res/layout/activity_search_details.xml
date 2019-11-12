@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchDetailsActivity">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/app_bar_layout">
+    </include>
+
+
+    <LinearLayout
+        android:id="@+id/itemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+        <TextView
+            android:id="@+id/name"
+            android:text="Item Name"
+            android:textSize="20dp"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+           >
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Price"
+        android:layout_below="@+id/itemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/itemPrice"
+            android:layout_width="200dp"
+            android:text="MRP"
+            android:textSize="20dp"
+            android:layout_height="60dp"
+           >
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/qty"
+        android:layout_below="@+id/Price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/itemQty"
+            android:layout_width="200dp"
+            android:text="Quantity"
+            android:textSize="20dp"
+            android:layout_height="50dp"
+           >
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/locate"
+        android:layout_below="@+id/qty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/itemLocation"
+            android:layout_width="200dp"
+            android:text="Location"
+            android:textSize="20dp"
+            android:layout_height="70dp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

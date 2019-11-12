@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchTypeActivity">
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:id="@+id/search_item_name"
+        android:layout_marginTop="100dp"
+        android:text="search by item Name"
+        android:textSize="20dp"
+
+        android:background="@drawable/button_rounded_skyblue">
+
+
+    </Button>
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/search_item_location"
+        android:layout_below="@+id/search_item_name"
+        android:text="search by item Location"
+        android:textSize="20dp"
+        android:background="@drawable/button_rounded_orange">
+
+
+    </Button>
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/search_item_barcode"
+        android:layout_below="@+id/search_item_location"
+        android:text="search by barcode"
+        android:textSize="20dp"
+        android:background="@drawable/button_rounded_pink">
+
+
+    </Button>
+
+
+
+</RelativeLayout>

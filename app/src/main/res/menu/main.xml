@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_barcode"
+        android:orderInCategory="100"
+        android:title="Barcode Scanner"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_items"
+        android:orderInCategory="100"
+        android:title="Home"
+        android:icon="@drawable/home"
+        app:showAsAction="always" />
+<!--    <item-->
+<!--        android:id="@+id/action_search"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="Search"-->
+<!--        app:showAsAction="never" />-->
+<!--    <item-->
+<!--        android:id="@+id/action_invoice"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="Generate Invoice"-->
+<!--        app:showAsAction="never" />-->
+<!--    <item-->
+<!--        android:id="@+id/day_wise_customer"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="Day Wise Customer"-->
+<!--        app:showAsAction="never" />-->
+</menu>
