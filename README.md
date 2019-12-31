@@ -33,6 +33,13 @@ directly send via SMS through this app.
 - Click on run Option
 - Either run on Mobile Device or on Emulator
 
-### some screen shots of this application
+### Some screen shots of this application
+
+![Sign Up](https://github.com/Aditya185/ShopMaking/blob/master/images/signup.jpeg)
+![Navigation](https://github.com/Aditya185/ShopMaking/blob/master/images/Navigation.jpeg)
+![Home Page](https://github.com/Aditya185/ShopMaking/blob/master/images/homePage.jpeg)
+![Search](https://github.com/Aditya185/ShopMaking/blob/master/images/search.jpeg)
+![Generate Invoice](https://github.com/Aditya185/ShopMaking/blob/master/images/generateInvoice.jpeg)
+
 
 
